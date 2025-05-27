@@ -90,8 +90,8 @@ def get_top_poop_ranking(chat_id, limit=5):
 
 app = Flask(__name__)
 
-configuration = Configuration(access_token = os.getenv('ACCESSTOKEN'))
-line_handler = WebhookHandler(os.getenv('ACCESSSECRET'))
+configuration = Configuration(access_token = 'dqDsuZty5lQq2uM2ULC8SCv2UjQ+7wuImSSJUzgEz9jSp7IY7vYT8SB0EOCN+mV13VdMm44bkeYO/OExQllsLbYpCvTETVCr4dkOcxEV+oS7d6GCmXP6GW102lkTuJYb/zwdqFqx82sBjl2yzsm87gdB04t89/1O/w1cDnyilFU=')
+line_handler = WebhookHandler('fbf2fcbc6412b8ed37b3ea35fbb913b0')
 
 
 @app.route("/callback", methods=['POST'])
